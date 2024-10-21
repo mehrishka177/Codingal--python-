@@ -14,7 +14,6 @@ def getRandomDate(startDate, endDate ): #defining function
     randomTime = startTime + randomGenerator * (endTime - 
 startTime)
     randomDate = time.strftime(dateFormat,time.localtime(randomTime))
-    #display result
-    print("Random Date =", getRandomDate("1/1/2016", "12/12/2018"))
+    #display resultprint("Random Date =", getRandomDate("1/1/2016", "12/12/2018"))
     
     

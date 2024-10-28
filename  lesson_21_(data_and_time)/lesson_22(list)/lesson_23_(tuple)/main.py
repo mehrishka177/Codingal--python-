@@ -11,3 +11,8 @@ print("tuplex")
 
 tuple1 = (50, 10, 60, 70, 50)
 print(tuple.count)
+
+tuplex = (2, 4, 3, 5, 4, 6, 7, 8, 6, 1)
+print(_slice)
+_slice = tuplex[:6]
+print(_slice)
